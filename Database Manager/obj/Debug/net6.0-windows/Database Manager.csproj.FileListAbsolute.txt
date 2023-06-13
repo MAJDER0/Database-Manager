@@ -63,3 +63,7 @@ C:\Users\Tomek\source\repos\Database Manager\Database Manager\obj\Debug\net6.0-w
 C:\Users\Tomek\source\repos\Database Manager\Database Manager\obj\Debug\net6.0-windows\Database Manager.pdb
 C:\Users\Tomek\source\repos\Database Manager\Database Manager\obj\Debug\net6.0-windows\Database Manager.genruntimeconfig.cache
 C:\Users\Tomek\source\repos\Database Manager\Database Manager\obj\Debug\net6.0-windows\ref\Database Manager.dll
+C:\Users\Tomek\source\repos\Database Manager\Database Manager\bin\Debug\net6.0-windows\Caliburn.Micro.Platform.Core.dll
+C:\Users\Tomek\source\repos\Database Manager\Database Manager\bin\Debug\net6.0-windows\Caliburn.Micro.Platform.dll
+C:\Users\Tomek\source\repos\Database Manager\Database Manager\bin\Debug\net6.0-windows\Caliburn.Micro.Core.dll
+C:\Users\Tomek\source\repos\Database Manager\Database Manager\bin\Debug\net6.0-windows\Microsoft.Xaml.Behaviors.dll

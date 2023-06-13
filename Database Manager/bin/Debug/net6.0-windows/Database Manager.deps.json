@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v6.0": {
       "Database Manager/1.0.0": {
         "dependencies": {
+          "Caliburn.Micro": "4.0.212",
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.5",
           "Microsoft.EntityFrameworkCore.Tools": "7.0.5"
         },
@@ -46,6 +47,33 @@
           "lib/netstandard2.0/Azure.Identity.dll": {
             "assemblyVersion": "1.6.0.0",
             "fileVersion": "1.600.22.20503"
+          }
+        }
+      },
+      "Caliburn.Micro/4.0.212": {
+        "dependencies": {
+          "Caliburn.Micro.Core": "4.0.212",
+          "Microsoft.Xaml.Behaviors.Wpf": "1.1.37"
+        },
+        "runtime": {
+          "lib/net6.0-windows7.0/Caliburn.Micro.Platform.Core.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.0.212.20088"
+          },
+          "lib/net6.0-windows7.0/Caliburn.Micro.Platform.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.0.212.20088"
+          }
+        }
+      },
+      "Caliburn.Micro.Core/4.0.212": {
+        "dependencies": {
+          "System.Runtime.Serialization.Primitives": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Caliburn.Micro.Core.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.0.212.20088"
           }
         }
       },
@@ -422,6 +450,14 @@
           "Microsoft.NETCore.Platforms": "5.0.0"
         }
       },
+      "Microsoft.Xaml.Behaviors.Wpf/1.1.37": {
+        "runtime": {
+          "lib/net5.0-windows7.0/Microsoft.Xaml.Behaviors.dll": {
+            "assemblyVersion": "1.1.0.0",
+            "fileVersion": "1.1.37.31167"
+          }
+        }
+      },
       "Mono.TextTemplating/2.2.1": {
         "dependencies": {
           "System.CodeDom": "4.4.0"
@@ -541,6 +577,12 @@
         }
       },
       "System.Runtime.CompilerServices.Unsafe/6.0.0": {},
+      "System.Runtime.Serialization.Primitives/4.3.0": {
+        "dependencies": {
+          "System.Resources.ResourceManager": "4.3.0",
+          "System.Runtime": "4.3.0"
+        }
+      },
       "System.Security.AccessControl/5.0.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "5.0.0",
@@ -637,6 +679,20 @@
       "sha512": "sha512-EycyMsb6rD2PK9P0SyibFfEhvWWttdrYhyPF4f41uzdB/44yQlV+2Wehxyg489Rj6gbPvSPgbKq0xsHJBhipZA==",
       "path": "azure.identity/1.6.0",
       "hashPath": "azure.identity.1.6.0.nupkg.sha512"
+    },
+    "Caliburn.Micro/4.0.212": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-cES6hx45uriyhSiyXo4usjrYmGnFpPosuVnq9X5N/MeyuZZLBB1S429cNL7c1xc2eunMsqCQPJDFjD2NDm7G6A==",
+      "path": "caliburn.micro/4.0.212",
+      "hashPath": "caliburn.micro.4.0.212.nupkg.sha512"
+    },
+    "Caliburn.Micro.Core/4.0.212": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-A/17oTTu/oYFSrahT9S6BxDnel/AIhOMSqEOG6MsG/MfchwuOrf144+2IIttu0k2UuSPFjIDKlPoSL5DTniwiw==",
+      "path": "caliburn.micro.core/4.0.212",
+      "hashPath": "caliburn.micro.core.4.0.212.nupkg.sha512"
     },
     "Humanizer.Core/2.14.1": {
       "type": "package",
@@ -883,6 +939,13 @@
       "path": "microsoft.win32.systemevents/5.0.0",
       "hashPath": "microsoft.win32.systemevents.5.0.0.nupkg.sha512"
     },
+    "Microsoft.Xaml.Behaviors.Wpf/1.1.37": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-TxH7g5I/4UzOHfs0GqD1W4evdl7DIHOQCr/KWc4G4BkgtsAhaHHXAW5JbKrkB7cqClN0JYOX6j9/4v4emCjFIA==",
+      "path": "microsoft.xaml.behaviors.wpf/1.1.37",
+      "hashPath": "microsoft.xaml.behaviors.wpf.1.1.37.nupkg.sha512"
+    },
     "Mono.TextTemplating/2.2.1": {
       "type": "package",
       "serviceable": true,
@@ -1015,6 +1078,13 @@
       "sha512": "sha512-/iUeP3tq1S0XdNNoMz5C9twLSrM/TH+qElHkXWaPvuNOt+99G75NrV0OS2EqHx5wMN7popYjpc8oTjC1y16DLg==",
       "path": "system.runtime.compilerservices.unsafe/6.0.0",
       "hashPath": "system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+    },
+    "System.Runtime.Serialization.Primitives/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Wz+0KOukJGAlXjtKr+5Xpuxf8+c8739RI1C+A2BoQZT+wMCCoMDDdO8/4IRHfaVINqL78GO8dW8G2lW/e45Mcw==",
+      "path": "system.runtime.serialization.primitives/4.3.0",
+      "hashPath": "system.runtime.serialization.primitives.4.3.0.nupkg.sha512"
     },
     "System.Security.AccessControl/5.0.0": {
       "type": "package",
