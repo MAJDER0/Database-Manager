@@ -9,6 +9,7 @@
       "Database Manager/1.0.0": {
         "dependencies": {
           "Caliburn.Micro": "4.0.212",
+          "Caliburn.Micro.Core": "4.0.212",
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.5",
           "Microsoft.EntityFrameworkCore.Tools": "7.0.5"
         },

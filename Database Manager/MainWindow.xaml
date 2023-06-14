@@ -25,25 +25,36 @@
             <RowDefinition Height="auto"></RowDefinition>
             <RowDefinition Height="auto"></RowDefinition>
             <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition Height="auto"></RowDefinition>
             <RowDefinition Height="*"></RowDefinition>
             <RowDefinition Height="20"></RowDefinition>
         </Grid.RowDefinitions>
 
-        <TextBlock Grid.Column="1" Grid.Row="1" FontSize="20" Foreground="Red" Text="Nazwa zwierzecia" ></TextBlock>
+        <TextBlock Grid.Column="1" Grid.Row="1" FontSize="20" Foreground="DarkMagenta" Text="Nazwa zwierzecia" Margin="0,30,0,0"></TextBlock>
 
-        <TextBox x:Name="NazwaZwierzecia" Grid.Column="2" Grid.Row="1" Margin="10,0,0,0" Height="20" Width="100"></TextBox>
+        <TextBox x:Name="NazwaZwierzecia" Grid.Column="2" Grid.Row="1" Margin="10,30,0,0" Height="20" Width="100"></TextBox>
 
-        <TextBlock Grid.Column="1" Grid.Row="2" FontSize="20" Foreground="Red" Text="Typ" ></TextBlock>
+        <TextBlock Grid.Column="1" Grid.Row="2" FontSize="20" Foreground="DarkMagenta" Text="Typ" ></TextBlock>
 
         <TextBox x:Name="Typ" Grid.Column="2" Margin="10,0,0,0" Grid.Row="2" Height="20" Width="100"></TextBox>
 
-        <TextBlock Grid.Column="1" Grid.Row="3" FontSize="20" Foreground="Red" Text="Sposób Odżywiania" ></TextBlock>
+        <TextBlock Grid.Column="1" Grid.Row="3" FontSize="20" Foreground="DarkMagenta" Text="Sposób Odżywiania" ></TextBlock>
 
         <TextBox Name="SposobOdzywiania" Grid.Column="2" Grid.Row="3" Height="20" Width="100" Margin="10,0,0,0"></TextBox>
 
-        <Button x:Name="Add_Record" Grid.Column="1" Grid.Row="4" Content="Submit" Background="DarkBlue" Width="auto" Grid.ColumnSpan="2" Margin="0,20,0,0" Click="Add_Record_Click"></Button>
+        <Button x:Name="Add_Record" Grid.Column="1" Grid.Row="4" Content="SUBMIT" FontWeight="Bold" Width="auto" Height="25" Grid.ColumnSpan="2" Margin="0,20,0,0" Click="Add_Record_Click" BorderBrush="DarkMagenta" Background="DarkOliveGreen"/>
 
-        <DataGrid Name="Animals" Grid.Column="3" Grid.Row="1" Grid.RowSpan="6" Width="auto" Height="auto" Margin="60,0,0,0" CanUserAddRows="false" AutoGenerateColumns="false">
+        <TextBlock Grid.Column="1" Grid.Row="5" FontSize="20" Foreground="DarkMagenta" Text="ID" Margin="0,20,0,0" ></TextBlock>
+
+        <TextBox Name="DeleteRecord" Grid.Column="2" Grid.Row="5" Height="20" Width="100" Margin="10,20,0,0"></TextBox>
+
+        <Button x:Name="Delete_Record" Grid.Column="1" Grid.Row="6" Content="DELETE RECORD WITH THAT ID" FontWeight="Bold" Background="DarkRed" BorderBrush="DarkMagenta" Width="auto" Height="25" Grid.ColumnSpan="2" Margin="0,30,0,0" Click="Delete_Record_Click"></Button>
+
+        <Button x:Name="NextWindow" Grid.Column="1" Grid.Row="7" Content="SEE ALL TABLES" FontWeight="Bold" Background="DarkOrange" BorderBrush="DarkMagenta" Width="auto" Height="25" Grid.ColumnSpan="2" Margin="0,40,0,0" Click="NextWindow_Click"></Button>
+
+        <DataGrid Name="Animals" Grid.Column="3" Grid.Row="1" Grid.RowSpan="9" Width="auto" Height="390" Margin="60,0,0,0" CanUserAddRows="false" AlternatingRowBackground="LightGray" AutoGenerateColumns="false">
             <DataGrid.Columns>
                 <DataGridTextColumn Header="Id Zwierzęcia" Binding="{Binding Path=Id}"></DataGridTextColumn>
                 <DataGridTextColumn Header="Nazwa" Binding="{Binding Path=Nazwa}"></DataGridTextColumn>
