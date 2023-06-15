@@ -5,9 +5,6 @@ C:\Users\Tomek\source\repos\Database Manager\Database Manager\bin\Debug\net6.0-w
 C:\Users\Tomek\source\repos\Database Manager\Database Manager\bin\Debug\net6.0-windows\Database Manager.pdb
 C:\Users\Tomek\source\repos\Database Manager\Database Manager\bin\Debug\net6.0-windows\Azure.Core.dll
 C:\Users\Tomek\source\repos\Database Manager\Database Manager\bin\Debug\net6.0-windows\Azure.Identity.dll
-C:\Users\Tomek\source\repos\Database Manager\Database Manager\bin\Debug\net6.0-windows\Caliburn.Micro.Platform.Core.dll
-C:\Users\Tomek\source\repos\Database Manager\Database Manager\bin\Debug\net6.0-windows\Caliburn.Micro.Platform.dll
-C:\Users\Tomek\source\repos\Database Manager\Database Manager\bin\Debug\net6.0-windows\Caliburn.Micro.Core.dll
 C:\Users\Tomek\source\repos\Database Manager\Database Manager\bin\Debug\net6.0-windows\Humanizer.dll
 C:\Users\Tomek\source\repos\Database Manager\Database Manager\bin\Debug\net6.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\Tomek\source\repos\Database Manager\Database Manager\bin\Debug\net6.0-windows\Microsoft.Data.SqlClient.dll
@@ -35,7 +32,6 @@ C:\Users\Tomek\source\repos\Database Manager\Database Manager\bin\Debug\net6.0-w
 C:\Users\Tomek\source\repos\Database Manager\Database Manager\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\Users\Tomek\source\repos\Database Manager\Database Manager\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Tokens.dll
 C:\Users\Tomek\source\repos\Database Manager\Database Manager\bin\Debug\net6.0-windows\Microsoft.SqlServer.Server.dll
-C:\Users\Tomek\source\repos\Database Manager\Database Manager\bin\Debug\net6.0-windows\Microsoft.Xaml.Behaviors.dll
 C:\Users\Tomek\source\repos\Database Manager\Database Manager\bin\Debug\net6.0-windows\Mono.TextTemplating.dll
 C:\Users\Tomek\source\repos\Database Manager\Database Manager\bin\Debug\net6.0-windows\System.IdentityModel.Tokens.Jwt.dll
 C:\Users\Tomek\source\repos\Database Manager\Database Manager\bin\Debug\net6.0-windows\System.Memory.Data.dll
