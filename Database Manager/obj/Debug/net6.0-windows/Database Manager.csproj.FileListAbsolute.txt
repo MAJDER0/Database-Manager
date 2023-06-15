@@ -50,7 +50,6 @@ C:\Users\Tomek\source\repos\Database Manager\Database Manager\obj\Debug\net6.0-w
 C:\Users\Tomek\source\repos\Database Manager\Database Manager\obj\Debug\net6.0-windows\MainWindow.g.cs
 C:\Users\Tomek\source\repos\Database Manager\Database Manager\obj\Debug\net6.0-windows\SecondWindow.g.cs
 C:\Users\Tomek\source\repos\Database Manager\Database Manager\obj\Debug\net6.0-windows\App.g.cs
-C:\Users\Tomek\source\repos\Database Manager\Database Manager\obj\Debug\net6.0-windows\Database Manager_Content.g.cs
 C:\Users\Tomek\source\repos\Database Manager\Database Manager\obj\Debug\net6.0-windows\Database Manager_MarkupCompile.cache
 C:\Users\Tomek\source\repos\Database Manager\Database Manager\obj\Debug\net6.0-windows\Database Manager_MarkupCompile.lref
 C:\Users\Tomek\source\repos\Database Manager\Database Manager\obj\Debug\net6.0-windows\MainWindow.baml
