@@ -54,7 +54,7 @@
 
         <Button x:Name="NextWindow" Grid.Column="1" Grid.Row="7" Content="SEE ALL TABLES" FontWeight="Bold" Background="DarkOrange" BorderBrush="DarkMagenta" Width="auto" Height="25" Grid.ColumnSpan="2" Margin="0,40,0,0" Click="NextWindow_Click"></Button>
 
-        <DataGrid Name="Animals" Grid.Column="3" Grid.Row="1" Grid.RowSpan="9" Width="auto" Height="390" Margin="60,0,0,0" CanUserAddRows="false" AlternatingRowBackground="LightGray" AutoGenerateColumns="false">
+        <DataGrid Name="Animals" Grid.Column="3" Grid.Row="1" Grid.RowSpan="9" Width="auto" Height="370" Margin="60,0,0,0" CanUserAddRows="false" AlternatingRowBackground="LightGray" AutoGenerateColumns="false">
             <DataGrid.Columns>
                 <DataGridTextColumn Header="Id Zwierzęcia" Binding="{Binding Path=Id}"></DataGridTextColumn>
                 <DataGridTextColumn Header="Nazwa" Binding="{Binding Path=Nazwa}"></DataGridTextColumn>

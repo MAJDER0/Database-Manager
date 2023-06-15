@@ -14,6 +14,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Media.Media3D;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using Database_Manager.Models;
 
 namespace Database_Manager
 {
@@ -81,6 +82,17 @@ namespace Database_Manager
 
                         };
                         _context.Ssakis.Add(newSsak);
+                        break;
+
+                    case "ryba":
+                        Ryby newRyba = new Ryby
+                        {
+                            ZwierzeId = newZwierze.Id,
+                            Nazwa = nazwaZwierzecia,
+                            SposobOdzywiania = sposobOdzywiania
+
+                        };
+                        _context.Rybies.Add(newRyba);
                         break;
 
                     case "gad":
