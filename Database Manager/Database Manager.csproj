@@ -6,7 +6,12 @@
     <RootNamespace>Database_Manager</RootNamespace>
     <Nullable>enable</Nullable>
     <UseWPF>true</UseWPF>
+    <ApplicationIcon>terminal_icon_153326.ico</ApplicationIcon>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="terminal_icon_153326.ico" />
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Caliburn.Micro" Version="4.0.212" />
