@@ -5,8 +5,6 @@ VisualStudioVersion = 17.3.32922.545
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Database Manager", "Database Manager\Database Manager.csproj", "{956671F0-E52F-4533-9A51-883D5952B675}"
 EndProject
-Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "DatabaseManager.Setup", "DatabaseManager.Setup\DatabaseManager.Setup.vdproj", "{F29A055E-5EE7-4842-869B-6C691B47D07A}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,8 +15,6 @@ Global
 		{956671F0-E52F-4533-9A51-883D5952B675}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{956671F0-E52F-4533-9A51-883D5952B675}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{956671F0-E52F-4533-9A51-883D5952B675}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F29A055E-5EE7-4842-869B-6C691B47D07A}.Debug|Any CPU.ActiveCfg = Debug
-		{F29A055E-5EE7-4842-869B-6C691B47D07A}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
